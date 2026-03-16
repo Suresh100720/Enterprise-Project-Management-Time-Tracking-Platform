@@ -1,0 +1,93 @@
+/* Tailwind Base Setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Global Reset */
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #f1f5f9;
+}
+
+
+/* Login Page Background */
+.login-bg {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+
+/* Card Styling */
+.ant-card {
+  border-radius: 10px !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08) !important;
+}
+
+
+/* Sidebar Styling */
+.ant-layout-sider {
+  background: #0f172a !important;
+}
+
+.ant-menu-dark {
+  background: #0f172a !important;
+}
+
+
+/* Sidebar Active Menu */
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: #2563eb !important;
+}
+
+
+/* Sidebar Hover Effect */
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: #1e293b !important;
+}
+
+
+/* Navbar */
+.ant-layout-header {
+  background: #1e293b !important;
+  color: white !important;
+  display: flex;
+  align-items: center;
+}
+
+
+/* Dashboard Cards */
+.dashboard-card {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+
+/* Buttons */
+.ant-btn-primary {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+}
+
+
+/* Tables */
+.ant-table {
+  background: white;
+  border-radius: 8px;
+}
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 10px;
+}
